@@ -1,8 +1,149 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <title>Sean Duffy - LC101 - HTML Me Something</title>
+      <meta charset="UTF-8">
+      <meta name="description" content="Launchcode LC101_PHL_2022 Cohort HTML/CSS assignment">
+      <meta name="keywords" content="HTML, CSS, JavaScript">
+      <meta name="author" content="Sean Duffy">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
    </head>
    <body>
       <!-- Write your HTML in this file! -->
+      <header>
+         <h1 id="mainHeading">Some of my favorite hobbies</h1>
+         <nav>
+            <ul>
+               <li><a href="#reading">Reading</a></li>
+               <li><a href="#gaming">Gaming</a></li>
+               <li><a href="#pottery">Pottery</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <article> 
+            <section>
+               <a name="reading"></a>
+               <h2>Reading</h2>
+               <header>
+                  <h3>Some of my favorite authors</h3>
+                  <nav>
+                     <ul>
+                        <li><a href="#mwth">Margaret Weis & Tracy Hickman</a></li>
+                        <li><a href="#rj">Robert Jordan</a></li>
+                        <li><a href="#bs">Brandon Sanderson</a></li>
+                        <li><a href="#rz">Roger Zelazny</a></li>
+                        <li><a href="#sk">Stephen King</a></li>
+                     </ul>
+                  </nav>
+               </header>
+               <a name="mwth"></a>
+               <h4>Margaret Weis & Tracy Hickman</h4>
+               <figure>
+                  <img src="images/dlance.jpg" alt="DragonLance novel covers" width="400">
+                  <figcaption>DragonLance</figcaption>
+               </figure>
+               <p>Weis and Hickman are some of the early pioneers of <abbr title="Dungeons and Dragons">DnD</abbr>. They worked for <abbr title="Tactical Studies Rules">TSR</abbr>, who became Wizards of the Coast, and created the first Fantasy and Sci-Fi series I ever read - <a href="https://en.wikipedia.org/wiki/Dragonlance">DragonLance</a> - and the rest was history. There are currently over 150 books and collections of tales set in the DragonLance universe.</p>
+               <figure>
+                  <img src="images/deathgate.jpg" alt="Death gate novel covers" width="400">
+                  <figcaption>The Death Gate Cycle</figcaption>
+               </figure>
+               <p>Another favorite series, Weis and Hickman penned a 7 book series called <em>The Death Gate Cycle</em>. The only problem is that I <em>DETEST</em> the name of one of the main characters: Haplo. Yuck!</p>
+               <a name="rj"></a>
+               <h4>Robert Jordan</h4>
+               <figure>
+                  <img src="images/WoT.jpg" alt="The Wheel of Time novel covers" width="400">
+                  <figcaption>The Wheel of Time</figcaption>
+               </figure>
+               <p>Following on the heels of <em>DragonLance</em>, I found Robert Jordan's <em>Wheel of Time</em> series, which is now a major <del>screwup</del> television series produced by Amazon. Started in the '80s, this epic high fantasy series was heavily influenced by multiple fantasy books - mainly Tolkein's <em>Lord of the Rings</em> trilogy. WoT is a 14 book series (the first 11 written by Robert Jordan; see <a href="#bs">Brandon Sanderson</a>) totalling over 4.4M words spanning over 10,000 hardback book pages. I've read all of these books at least 3 times, and many of them upwards of 7 times. Stop looking at me like that!</p>
+               <a name="bs"></a>
+               <h4>Brandon Sanderson</h4>
+               <figure>
+                  <img src="images/mistborn.jpg" alt="Mistborn novel covers" width="400">
+                  <figcaption>Mistborn</figcaption>
+               </figure>
+               <p>I first heard of Brandon Sanderson when he was tapped to take over for Robert Jordan upon Jordan's death in late 2007. While I waited 6 more years for the conclusion of the WoT tale, I began to read some of Sanderson and fell in love with his works. The Mistborn series is an incredible read, with a very novel and unique magic system. Sanderson is presently working on an epic high fantasy series called <em>The Stormlight Archive</em>, another behemoth group of novels currently sitting at just under 1.8M words spanning over 5,000 hardback pages.</p>
+               <a name="rz"></a>
+               <h4>Roger Zelazny</h4>
+               <figure>
+                  <img src="images/amber.jpg" alt="The Great Book of Amber novel collection cover" width="200">
+                  <figcaption></figcaption>
+               </figure>
+               <p>Started in the '70s, the Chronicles of Amber is a set of 10 books written by Zelazny until his death in 1991. Tragically, Zelazny had planned for more novels while simultaneously forbidding anyone else to finish the series. Even knowing his death was imminent, Zelazny did nothing to permit others to finish his series. The fact that someone tried (and failed, if you read the reviews!) is hardly relevant, since no one could possibly embue Amber books with the same vitality and personality.</p>
+               <a name="sk"></a>
+               <h4>Stephen King</h4>
+               <figure>
+                  <img src="images/darktower.jpg" alt="The Dark Tower series novel covers" width="400">
+                  <figcaption></figcaption>
+               </figure>
+               <p>I'm not a fan of horror, but his writing style is undeniable. I've read most of his books, including the horor, but his fantasy fiction is my real draw. The Dark Tower series (made into a crappy movie, like many, many SK novels and short stories) is a series of 7 books and starts with the first book King ever wrote, way back in college, although it was not his first book published. It's an amazong tale modeled after wild west stories and brought to life by the Browning poem <em><a href="https://www.bartleby.com/246/654.html">Childe Rowland to the Dark Tower Came</a></em>. A near-death accident struck King after the first 3 books and nearly ended the tale prematurely, however King continued on to write the final 4 books.</p>
+               <details><summary>Contains Dark Tower spoilers!</summary><p>King wrote his accident into the remaining novels as a key plot point, forever changing anything he could have originally planned for the remainder of the novel. This fact initially made me loathe the series, but time and successive re-reads softened my view, until I eventually came to love the series as written.</p></details>
+               <figure>
+                  <img src="images/eyesofdragon.jpg" alt="The Eyes of the Dragon novel cover" width="200">
+                  <figcaption></figcaption>
+               </figure>
+               <p>Another fantastic early novel from King is also one of his few fantasy offerings: <em>The Eyes of the Dragon</em>. It has kings and princes and villains and intrigue and, yes, even a dragon!</p>
+               <figure>
+                  <img src="images/longwalk.jpg" alt="The Long Walk novel cover" width="200">
+                  <figcaption></figcaption>
+               </figure>
+               <p>One final word on Stephen King. Once he acheived fame, he missed being able to write whatever he wanted as his fans wanted what they wanted (or, so they thought!) To try to reclaim that level of freedom, he built a psuedonym named Richard Bachman and wrote a series of short novellas. His anonymity didn't last long, but this series of books contains what I almost assuredly consider his best novella: <em>The Long Walk</em>. Not for the faint of heart, but are any of King's books, really?</p>
+            </section>
+            <section>
+               <a name="gaming"></a>
+               <h2>Gaming</h2>
+               <header>
+                  <h3>Some of my favorite types of games</h3>
+                  <nav>
+                     <ul>
+                        <li><a href="tg">Tabletop games</a></li>
+                        <li><a href="eg">Electronic games</a></li>
+                     </ul>
+                  </nav>
+               </header>
+               <a name="tg"></a>
+               <h4>Tabletop Games</h4>
+               <!-- <figure>
+                  <img src="images/.jpg" alt="" width="400">
+                  <figcaption></figcaption>
+               </figure> -->
+               <p id="testP" class="funParagraph">Tabletop games I play include board games and card games. I love Terraforming Mars: Ares Expedition and Cartographers. Both are board games. For card games, I love to play Back-Alley Bridge, Capitalism, and Hand and Foot. I don't have interesting pictures of all of these games, and descriptions will simply have to wait for a day when I can revisit this assignment.</p>
+               <a name="eg"></a>
+               <!-- <figure>
+                  <img src="images/.jpg" alt="" width="400">
+                  <figcaption></figcaption>
+               </figure> -->
+               <h4>Electronic Games</h4>
+               <p>My kids and I love to play Fortnite together. My son even has a family-friendly YouTube channel where he streams our games, as well as many other games he plays with friends over the internet. You can find his channel at <a href="https://www.youtube.com/c/Braekpo1nt">Braekpo1nt</a>.</p>
+            </section>            
+            <section>
+               <a name="pottery"></a>
+               <h2>Pottery</h2>
+               <header>
+                  <h3>My newest hobby</h3>
+               <h4>A simple gallery of some of my pieces</h4>
+               <figure>
+                  <img src="images/mug.jpg" alt="blue ceramic coffee mug" width="400">
+                  <figcaption>My favorite piece and every day coffee mug!</figcaption>
+               </figure>
+               <figure>
+                  <img src="images/pitcher.jpeg" alt="a tall green ceramic pitcher and a shorter red and blue mug" width="400">
+                  <figcaption>My tallest piece and another coffee mug</figcaption>
+               </figure>
+               <figure>
+                  <img src="images/shotglass.jpeg" alt="2 brown handle-less coffee mugs and 3 dark blue chocolate shot glasses" width="400">
+                  <figcaption>Handle-less coffee mugs and a few chocolate-shot glasses</figcaption>
+               </figure>
+               <figure>
+                  <img src="images/heartmug.jpeg" alt="the inside of a brown mug with a heart drawn on the bottom" width="400">
+                  <figcaption>The inside of one of the brown mugs</figcaption>
+               </figure>
+            </section>
+         </article>
+      </main>
+      <footer>
+         <p>&copy; 2022 • Sean Duffy</p>
+      </footer>
    </body>
 </html>
